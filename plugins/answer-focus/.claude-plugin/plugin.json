@@ -1,0 +1,41 @@
+{
+  "name": "answer-focus",
+  "version": "0.4.3",
+  "description": "Makes Claude's answer stand out: dims the text Claude wrote between tool calls and highlights what the answer asks you to do.",
+  "author": {
+    "name": "Guille",
+    "url": "https://github.com/gilemor"
+  },
+  "homepage": "https://github.com/gilemor/mod-modicum",
+  "repository": "https://github.com/gilemor/mod-modicum",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "dimSteps": {
+      "type": "boolean",
+      "title": "Atenuar pasos intermedios",
+      "description": "Atenúa lo que Claude escribe entre herramientas, para que la respuesta final resalte.",
+      "default": true
+    },
+    "actionCard": {
+      "type": "boolean",
+      "title": "Lo que te toca",
+      "description": "Claude apunta lo que te pide hacer y la mod lo resalta bajo cada respuesta.",
+      "default": true
+    },
+    "highlightColor": {
+      "type": "string",
+      "title": "Color del resaltado",
+      "description": "Color con el que se resalta lo que te toca.",
+      "options": [
+        "ámbar",
+        "amarillo",
+        "verde",
+        "azul",
+        "violeta",
+        "rosa"
+      ],
+      "default": "ámbar"
+    }
+  }
+}
