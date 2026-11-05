@@ -8,13 +8,18 @@ Small Claude Code mods, a modicum at a time.
 
 ## Install
 
-At the prompt of a Claude Code terminal session:
+Paste this into Claude Code and it does the rest:
 
-```
-/plugin install answer-focus --marketplace gilemor/mod-modicum
+```text
+Install this Claude Code plugin from the mod-modicum marketplace (github.com/gilemor/mod-modicum) by running:
+
+claude plugin marketplace add gilemor/mod-modicum
+claude plugin install answer-focus@mod-modicum
+
+Then tell me to restart Claude Code so it loads, and to get new versions on their own by turning on auto-update: /plugin → Marketplaces → mod-modicum → Enable auto-update.
 ```
 
-Answer `y` to add the marketplace, pick a scope, then open a new session so the mod loads.
+Or run those two commands yourself and restart Claude Code. Claude can't turn on auto-update for you: it's that one menu step.
 
 ## License
 

@@ -9,13 +9,18 @@ Atenuar los pasos solo cambia cómo se dibujan. El bloque `<te-toca>` sí queda 
 
 ## Instalación
 
-En una sesión de Claude Code en terminal, escribe:
+Pega esto en Claude Code y hará el resto:
 
-```
-/plugin install answer-focus --marketplace gilemor/mod-modicum
+```text
+Install this Claude Code plugin from the mod-modicum marketplace (github.com/gilemor/mod-modicum) by running:
+
+claude plugin marketplace add gilemor/mod-modicum
+claude plugin install answer-focus@mod-modicum
+
+Then tell me to restart Claude Code so it loads, and to get new versions on their own by turning on auto-update: /plugin → Marketplaces → mod-modicum → Enable auto-update.
 ```
 
-Abre una sesión nueva para que cargue.
+O ejecuta tú esos dos comandos y reinicia Claude Code. El auto-update lo activas tú en ese menú: Claude no puede hacerlo por ti.
 
 ## Opciones
 
