@@ -2,6 +2,8 @@
 
 Small Claude Code mods, a modicum at a time.
 
+![answer-focus: Claude's replies without the mod and with it, working notes dimmed and what you must do highlighted under the answer](plugins/answer-focus/assets/preview.png)
+
 | Mod | What it does |
 | --- | --- |
 | [answer-focus](plugins/answer-focus) | Dims the text Claude writes between tool calls and highlights what the answer asks you to do. |

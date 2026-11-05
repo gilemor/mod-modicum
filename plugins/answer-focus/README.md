@@ -2,6 +2,8 @@
 
 Hace que la respuesta de Claude resalte sobre el resto del turno.
 
+![Respuesta de Claude sin el mod y con él: pasos intermedios atenuados y lo que te toca resaltado bajo la respuesta](assets/preview.png)
+
 - **Pasos intermedios atenuados.** Lo que Claude escribe antes de usar herramientas ("Miro el código…", "Ahora los estilos…") se ve atenuado, así la respuesta final destaca al hacer scroll.
 - **Lo que te toca, resaltado.** Cuando una respuesta te pide hacer o decidir algo, Claude lo apunta en un bloque `<te-toca>` al final, una acción por línea y escrita para entenderse sola. La mod oculta el bloque y muestra cada línea bajo la respuesta, con una flecha y resaltada. Claude recibe la instrucción una vez por sesión (y otra tras compactar), así que cuesta pocos tokens.
 
